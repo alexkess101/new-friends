@@ -1,0 +1,15 @@
+@font-face {
+	font-family: proximaNova;
+	src: url("styles/fonts/ProximaNova-Regular.otf");
+}
+
+@font-face {
+	font-family: proximaNova-Semibold;
+	src: url("styles/fonts/ProximaNova-Semibold.otf");
+}
+
+* {
+	margin: 0;
+	font-family: proximaNova;
+}
+

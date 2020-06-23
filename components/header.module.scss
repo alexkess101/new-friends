@@ -1,0 +1,33 @@
+.header {
+	width: 100%;
+	background-image: url("/img/friend-pic1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-position: 0 -400px;
+	height: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+
+.container {
+	max-width: 600px;
+	color: white;
+	text-align: center;
+}
+
+.title {
+	font-size: 56px;
+	font-weight: bold;
+	line-height: 67px;
+	margin-bottom: 10px;
+	font-family: proximaNova-Semibold;
+}
+
+.subTitle {
+	font-family: proximaNova-Semibold;
+	font-size: 20px;
+
+}
