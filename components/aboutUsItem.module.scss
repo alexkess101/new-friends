@@ -1,0 +1,13 @@
+.items {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	height: 300px;
+	max-width: 1200px;
+}
+
+.img {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

@@ -1,3 +1,5 @@
+import AboutUsItem from "./AboutUsItem.js";
+
 import styles from "./aboutUs.module.scss";
 
 const AboutUs = () => {
@@ -18,6 +20,15 @@ const AboutUs = () => {
 				<img src={"/svg/handshake-regular.svg"} alt={"svg-img"} className={styles.img}/>
 				<img src={"/svg/umbrella-beach-solid.svg"} alt={"svg-img"} className={styles.img}/>
 			</div>
+
+			<AboutUsItem
+				title={"What can you expect"}
+				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
+				"doesn't. Please help me prove her wrong."}
+				imgPath={"/img/log-hands.jpg"}
+				isReversed={true}
+			/>
+
 		</div>
 	)
 };

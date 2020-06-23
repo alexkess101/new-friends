@@ -1,3 +1,5 @@
+@import "styles/variables.scss";
+
 .container {
 	display: flex;
 	justify-content: center;
@@ -12,7 +14,6 @@
 }
 
 .title {
-	color: #353535;
 	margin-bottom: 10px;
 }
 
@@ -24,6 +25,7 @@
 	width: 450px;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 100px;
 }
 
 .img {
