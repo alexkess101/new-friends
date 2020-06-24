@@ -43,6 +43,15 @@ p {
 	line-height: 28px;
 }
 
+a {
+	text-decoration: none;
+	color: $blue;
+
+	&:hover {
+		color: $orange;
+	}
+}
+
 .btn {
 	padding: 10px 15px;
 	font-size: 15px;

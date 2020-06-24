@@ -1,8 +1,18 @@
 import AboutUsItem from "./AboutUsItem.js";
+import {useState} from "react";
+import Modal from "./Modal.js";
 
 import styles from "./aboutUs.module.scss";
 
+
+
 const AboutUs = () => {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	const handleRickRoll = () => {
+		setIsModalOpen(true);
+	};
+
 	return (
 		<div className={styles.container}>
 			<div className={styles.titleContainer}>
@@ -21,10 +31,23 @@ const AboutUs = () => {
 				<img src={"/svg/umbrella-beach-solid.svg"} alt={"svg-img"} className={styles.img}/>
 			</div>
 
+			<Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen}>
+				<img src={"/img/rick-rolled.png"} alt={"rick-roll"} className={styles.rickImg}/>
+
+				<div className={styles.modal}>
+					<h3>
+						You just got Rick-Rolled
+					</h3>
+					<p>
+						If you don't know what that is then just google it. I'm not gonna explain it.
+						But for real, this has nothing to do with the reason why you are here anyway.
+					</p>
+				</div>
+			</Modal>
+
 			<AboutUsItem
 				title={"What can you expect"}
-				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
-				"doesn't. Please help me prove her wrong."}
+				subTitle={<p>It'll be kind of weird...let's get real. You feel it, I feel it, we're all on the same page. Check out a video of how we did it the first time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
 				imgPath={"/img/log-hands.jpg"}
 			/>
 

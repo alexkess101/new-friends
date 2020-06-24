@@ -1,0 +1,20 @@
+.modalOpen {
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.97);
+	top: 0;
+	overflow: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modalClose {
+	display: none;
+}
+
+.wrapper {
+	display: flex;
+}
