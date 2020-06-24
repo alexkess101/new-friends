@@ -1,13 +1,31 @@
 .items {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 30px;
+	grid-column-gap: 100px;
 	height: 300px;
-	max-width: 1200px;
+	max-width: 1000px;
+	margin-bottom: 125px;
+}
+
+.itemTitle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	margin-bottom: 20px;
+}
+
+.imgWrapper {
+	display: flex;
+	width: 100%;
 }
 
 .img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	width: 100%;
+	border-radius: 10px;
 }

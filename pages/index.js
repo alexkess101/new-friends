@@ -1,6 +1,8 @@
 import Head from "next/head"
 import Header from "../components/Header.js"
 import AboutUs from "../components/AboutUs.js";
+import Footer from "../components/Footer.js";
+import CallToAction from "../components/CallToAction.js";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
 
        <Header/>
        <AboutUs/>
+       <CallToAction/>
+       <Footer/>
 
     </div>
   )

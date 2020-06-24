@@ -26,7 +26,21 @@ const AboutUs = () => {
 				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
 				"doesn't. Please help me prove her wrong."}
 				imgPath={"/img/log-hands.jpg"}
+			/>
+
+			<AboutUsItem
+				title={"What can you expect"}
+				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
+				"doesn't. Please help me prove her wrong."}
+				imgPath={"/img/log-hands.jpg"}
 				isReversed={true}
+			/>
+
+			<AboutUsItem
+				title={"What can you expect"}
+				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
+				"doesn't. Please help me prove her wrong."}
+				imgPath={"/img/log-hands.jpg"}
 			/>
 
 		</div>

@@ -43,3 +43,35 @@ p {
 	line-height: 28px;
 }
 
+.btn {
+	padding: 10px 15px;
+	font-size: 15px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	text-transform: uppercase;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 4px 6px 0 rgba(50, 50, 93, 0.11);
+	transition: 0.25s;
+	text-decoration: none;
+
+	&:hover {
+		transform: translateY(-2px);
+		filter: brightness(110%);
+	}
+}
+
+.btn--orange {
+	@extend .btn;
+
+	background-color: $orange;
+	color: $white;
+}
+
+.btn--white {
+	@extend .btn;
+
+	background-color: $white;
+	color: $orange;
+
+}
