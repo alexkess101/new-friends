@@ -1,4 +1,4 @@
-import styles from "./AboutUsItem.module.scss";
+import styles from "./aboutUsItem.module.scss";
 
 const AboutUsItem = ({title, subTitle, imgPath, isReversed=false}) => {
 	return (
@@ -27,7 +27,6 @@ const AboutUsItem = ({title, subTitle, imgPath, isReversed=false}) => {
 						</div>
 					)
 				}
-
 		</div>
 	)
 };
