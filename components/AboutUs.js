@@ -19,8 +19,8 @@ const AboutUs = () => {
 				<h2 className={styles.title}>About Us</h2>
 				<h4 className={styles.subTitle}>
 					Everyone creates the best memories in close friend groups.
-					I'm trying to create a dope friend group from scratch to have the
-					best summer ever.
+					I'm trying to create a dope friend group from scratch. That sounds
+					pretty fun right?
 				</h4>
 			</div>
 			<div className={styles.imgContainer}>
@@ -36,18 +36,18 @@ const AboutUs = () => {
 
 				<div className={styles.modal}>
 					<h3>
-						You just got Rick-Rolled
+						Psych!
 					</h3>
 					<p>
-						If you don't know what that is then just google it. I'm not gonna explain it.
-						But for real, this has nothing to do with the reason why you are here anyway.
+						Sorry, you just got Rick Rolled. But really, we don't have any videos of when we did this
+						before because this is the first time it's been done EVER!
 					</p>
 				</div>
 			</Modal>
 
 			<AboutUsItem
 				title={"What can you expect"}
-				subTitle={<p>It'll be kind of weird...let's get real. You feel it, I feel it, we're all on the same page. Check out a video of how we did it the first time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
+				subTitle={<p>It'll be kind of weird...let's get real. You feel it, I feel it, we're all on the same page. But if you're really that skeptical you can check out a video of how we did it the first time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
 				imgPath={"/img/log-hands.jpg"}
 			/>
 
@@ -56,7 +56,6 @@ const AboutUs = () => {
 				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
 				"doesn't. Please help me prove her wrong."}
 				imgPath={"/img/log-hands.jpg"}
-				isReversed={true}
 			/>
 
 			<AboutUsItem

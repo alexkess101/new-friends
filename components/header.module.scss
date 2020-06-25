@@ -4,7 +4,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-position: 0 -400px;
 	height: 550px;
 	position: relative;
 	display: flex;
@@ -21,7 +20,7 @@
 }
 
 .title {
-	font-size: 56px;
+	font-size: 43px;
 	font-weight: bold;
 	line-height: 67px;
 	margin-bottom: 10px;
@@ -30,6 +29,17 @@
 
 .subTitle {
 	font-family: proximaNova-Semibold;
-	font-size: 20px;
+	font-size: 17px;
+
+}
+
+@media only screen and (min-width: 580px) {
+	.title {
+		font-size: 56px;
+	}
+
+	.subTitle {
+		font-size: 20px;
+	}
 
 }

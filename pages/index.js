@@ -15,6 +15,10 @@ export default function Home() {
        <AboutUs/>
        <CallToAction/>
        <Footer/>
+       {/*<iframe*/}
+       {/*    src="https://docs.google.com/forms/d/e/1FAIpQLScqYjofIp2pzvkYQrAqbIQNDxiUCQFon-LtF26uhzjSlM-pig/viewform?embedded=true"*/}
+       {/*    width="640" height="844" frameBorder="0" marginHeight="0" marginWidth="0">Loading…*/}
+       {/*</iframe>*/}
 
     </div>
   )
