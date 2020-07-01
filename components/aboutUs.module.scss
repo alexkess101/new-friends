@@ -23,17 +23,13 @@
 	line-height: 30px;
 }
 
-//.imgContainer {
-//	display: flex;
-//	justify-content: center;
-//	margin-bottom: 100px;
-//	width: 90%;
-//	padding: 0 20px;
-//}
+.imgContainer {
+	margin-bottom: 50px;
+}
 
 .img {
 	width: 40px;
-	margin-right: 50px;
+	margin-right: 30px;
 
 	&:last-child {
 		margin-right: 0;
