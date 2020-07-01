@@ -23,13 +23,13 @@ const AboutUs = () => {
 					pretty fun right?
 				</h4>
 			</div>
-			{/*<div className={styles.imgContainer}>*/}
-			{/*	<img src={"/svg/couch-solid.svg"} alt={"svg-img"} className={styles.img}/>*/}
-			{/*	<img src={"/svg/expeditedssl-brands.svg"} alt={"svg-img"} className={styles.img}/>*/}
-			{/*	<img src={"/svg/glass-cheers-solid.svg"} alt={"svg-img"} className={styles.img}/>*/}
-			{/*	<img src={"/svg/handshake-regular.svg"} alt={"svg-img"} className={styles.img}/>*/}
-			{/*	<img src={"/svg/umbrella-beach-solid.svg"} alt={"svg-img"} className={styles.img}/>*/}
-			{/*</div>*/}
+			<div className={styles.imgContainer}>
+				<img src={"/svg/couch-solid.svg"} alt={"svg-img"} className={styles.img}/>
+				<img src={"/svg/expeditedssl-brands.svg"} alt={"svg-img"} className={styles.img}/>
+				<img src={"/svg/glass-cheers-solid.svg"} alt={"svg-img"} className={styles.img}/>
+				<img src={"/svg/handshake-regular.svg"} alt={"svg-img"} className={styles.img}/>
+				<img src={"/svg/umbrella-beach-solid.svg"} alt={"svg-img"} className={styles.img}/>
+			</div>
 
 			<Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen}>
 				<img src={"/img/rick-rolled.png"} alt={"rick-roll"} className={styles.rickImg}/>
