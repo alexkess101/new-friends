@@ -49,6 +49,7 @@ const AboutUs = () => {
 				title={"What can you expect"}
 				subTitle={<p>It'll be kind of weird...let's get real. You feel it, I feel it, we're all on the same page. But if you're really that skeptical you can check out a video of how we did it the first time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
 				imgPath={"/img/log-hands.jpg"}
+
 			/>
 
 			<AboutUsItem
@@ -56,6 +57,8 @@ const AboutUs = () => {
 				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
 				"doesn't. Please help me prove her wrong."}
 				imgPath={"/img/log-hands.jpg"}
+				titleClass={styles.itemTitle}
+				subTitleClass={styles.imgWrapper}
 			/>
 
 			<AboutUsItem

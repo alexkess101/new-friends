@@ -52,5 +52,19 @@
 }
 
 @media only screen and (min-width: 580px) {
+	.itemTitle {
+		&:nth-child(even) {
+			grid-column: 2;
+		}
+	}
 
+	.imgWrapper {
+		&:nth-child(even) {
+			grid-row: 1;
+		}
+	}
+
+	.imgContainer {
+		margin-bottom: 100px;
+	}
 }

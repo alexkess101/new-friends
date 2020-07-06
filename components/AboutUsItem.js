@@ -1,17 +1,9 @@
 import styles from "./aboutUsItem.module.scss";
 
-const AboutUsItem = ({title, subTitle, imgPath, isReversed=false}) => {
+const AboutUsItem = ({title, subTitle, imgPath, titleClass="", subTitleClass=""}) => {
 	return (
 		<div className={styles.items}>
-				{
-					isReversed && (
-						<div className={styles.imgWrapper}>
-							<div style={{backgroundImage: `url(${imgPath})`}} className={styles.img}/>
-						</div>
-					)
-				}
-
-			<div className={styles.itemTitle}>
+			<div className={styles.itemTitle + " " + titleClass}>
 				<h3 className={styles.title}>
 					{title}
 				</h3>
@@ -20,13 +12,9 @@ const AboutUsItem = ({title, subTitle, imgPath, isReversed=false}) => {
 				</p>
 			</div>
 
-				{
-					!isReversed && (
-						<div className={styles.imgWrapper}>
-							<div style={{backgroundImage: `url(${imgPath})`}} className={styles.img}/>
-						</div>
-					)
-				}
+			<div className={styles.imgWrapper + " " + subTitleClass}>
+				<div style={{backgroundImage: `url(${imgPath})`}} className={styles.img}/>
+			</div>
 		</div>
 	)
 };
