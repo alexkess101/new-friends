@@ -8,7 +8,7 @@ const Header = () => {
 					This Could Be Fun
 				</div>
 				<div className={styles.subTitle}>
-					Creating a random friend group from scratch
+					Creating your new best friend group
 				</div>
 			</div>
 

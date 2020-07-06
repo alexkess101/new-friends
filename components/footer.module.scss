@@ -1,3 +1,22 @@
 .footer {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+}
 
+.footerIcons {
+	display: flex;
+	justify-content: center;
+}
+
+.img {
+	width: 22px;
+	margin-right: 38px;
+
+	&:last-child {
+		margin-right: 0;
+	}
 }

@@ -31,7 +31,7 @@ const AboutUs = () => {
 				<img src={"/svg/umbrella-beach-solid.svg"} alt={"svg-img"} className={styles.img}/>
 			</div>
 
-			<Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen}>
+			<Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} className={styles.modalWrapper}>
 				<img src={"/img/rick-rolled.png"} alt={"rick-roll"} className={styles.rickImg}/>
 
 				<div className={styles.modal}>

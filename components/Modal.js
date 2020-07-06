@@ -1,6 +1,6 @@
 import styles from "./modal.module.scss";
 
-const Modal = ({children, isModalOpen, setIsModalOpen}) => {
+const Modal = ({children, isModalOpen, setIsModalOpen, className=""}) => {
 	const modalClass = isModalOpen ? styles.modalOpen : styles.modalClose;
 
 	const toggleModal = () => {
@@ -9,7 +9,7 @@ const Modal = ({children, isModalOpen, setIsModalOpen}) => {
 
 	return (
 		<div className={modalClass} onClick={toggleModal}>
-			<div className={styles.wrapper}>
+			<div className={styles.wrapper + " " + className}>
 				{children}
 			</div>
 		</div>

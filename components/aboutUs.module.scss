@@ -41,8 +41,14 @@
 }
 
 .rickImg {
-	max-width: 300px;
+	width: 100%;
 	border-radius: 5px;
+	margin-bottom: 25px;
+}
+
+.modalWrapper {
+	display: grid;
+	padding: 0 20px;
 }
 
 @media only screen and (min-width: 580px) {
