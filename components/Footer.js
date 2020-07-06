@@ -3,7 +3,7 @@ import styles from "./footer.module.scss";
 const Footer = () => {
 	return (
 		<div className={styles.footer}>
-			<div className={styles.footerIcons}>
+			<div className={styles.footerIcons} id={"social-links"}>
 				<a href={"https://www.instagram.com/aleepoo/"} target={"_blank"} className={styles.img}>
 					<img src={"/svg/instagram-brands.svg"} alt={"svg-img"} />
 				</a>

@@ -46,25 +46,27 @@ const AboutUs = () => {
 			</Modal>
 
 			<AboutUsItem
-				title={"What can you expect"}
-				subTitle={<p>It'll be kind of weird...let's get real. You feel it, I feel it, we're all on the same page. But if you're really that skeptical you can check out a video of how we did it the first time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
+				title={"What you can expect 👀"}
+				subTitle={<p>It'll be kind of weird...let's get real. You feel it, I feel it, we're all on the same page.
+					But if you're really that skeptical you can check out a video of how we did it the first
+					time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
 				imgPath={"/img/log-hands.jpg"}
 
 			/>
 
 			<AboutUsItem
-				title={"What can you expect"}
-				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
-				"doesn't. Please help me prove her wrong."}
+				title={"What's the point? 🤷"}
+				subTitle={<p>You've heard of COVID-19? Yeah, it's been a while since I've tried to make new friends and I'd
+				imagine it's the same for you. If you have any questions I linked all my social media <a href={"#social-links"}>here</a> at the bottom of the page.</p>}
 				imgPath={"/img/log-hands.jpg"}
 				titleClass={styles.itemTitle}
 				subTitleClass={styles.imgWrapper}
 			/>
 
 			<AboutUsItem
-				title={"What can you expect"}
-				subTitle={"Honestly, I'm not sure. Definitely a different take on things. I think it'll be fun, but my mom" +
-				"doesn't. Please help me prove her wrong."}
+				title={"Is it safe? 😘"}
+				subTitle={<p>Of course! Because of COVID-19 we'll be following the governors council as closely as possible.
+				My dad works for the government so I really don't have a choice.</p>}
 				imgPath={"/img/log-hands.jpg"}
 			/>
 

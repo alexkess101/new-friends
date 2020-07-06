@@ -9,17 +9,20 @@ export default function Home() {
    <div>
        <Head>
            <title>Creating friends from scratch</title>
+           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171722391-1"></script>
+           <script>
+               window.dataLayer = window.dataLayer || [];
+               function gtag(){dataLayer.push(arguments)}
+               gtag('js', new Date());
+
+               gtag('config', 'UA-171722391-1');
+           </script>
        </Head>
 
        <Header/>
        <AboutUs/>
        <CallToAction/>
        <Footer/>
-       {/*<iframe*/}
-       {/*    src="https://docs.google.com/forms/d/e/1FAIpQLScqYjofIp2pzvkYQrAqbIQNDxiUCQFon-LtF26uhzjSlM-pig/viewform?embedded=true"*/}
-       {/*    width="640" height="844" frameBorder="0" marginHeight="0" marginWidth="0">Loading…*/}
-       {/*</iframe>*/}
-
     </div>
   )
 }
