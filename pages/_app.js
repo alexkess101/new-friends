@@ -1,4 +1,5 @@
 import {useEffect} from "react";
+import Router from "next/router";
 import * as gtag from "../gtag.js";
 
 import "../styles.scss";
@@ -17,4 +18,5 @@ const App = ({ Component, pageProps }) => {
 return <Component {...pageProps} />
 
 };
+
 export default App;
