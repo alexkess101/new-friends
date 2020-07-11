@@ -50,14 +50,16 @@ const AboutUs = () => {
 				subTitle={<p>It'll be kind of weird...let's get real. You feel it, I feel it, we're all on the same page.
 					But if you're really that skeptical you can check out a video of how we did it the first
 					time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
-				imgPath={"/img/log-hands.jpg"}
+				imgPath={"/img/img-friends.jpg"}
 
 			/>
 
 			<AboutUsItem
 				title={"What's the point? 🤷"}
 				subTitle={<p>You've heard of COVID-19? Yeah, it's been a while since I've tried to make new friends and I'd
-				imagine it's the same for you. If you have any questions I linked all my social media <a href={"#social-links"}>here</a> at the bottom of the page.</p>}
+				imagine it's the same for you. If you have any questions I linked all my social
+				media<a href={"#social-links"}> here</a> at the bottom of the page. Also, the guy in the All
+				Blacks polo is me.</p>}
 				imgPath={"/img/alex.jpg"}
 				titleClass={styles.itemTitle}
 				subTitleClass={styles.imgWrapper}
@@ -67,7 +69,7 @@ const AboutUs = () => {
 				title={"Is it safe? 😘"}
 				subTitle={<p>Of course! Because of COVID-19 we'll be following the governors council as closely as possible.
 				My dad works for the government so I really don't have a choice.</p>}
-				imgPath={"/img/log-hands.jpg"}
+				imgPath={"/img/img-mask-girl.jpg"}
 			/>
 
 		</div>
