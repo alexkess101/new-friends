@@ -14,6 +14,7 @@ const AboutUsItem = ({title, subTitle, imgPath, titleClass="", subTitleClass=""}
 
 			<div className={styles.imgWrapper + " " + subTitleClass}>
 				<div style={{backgroundImage: `url(${imgPath})`}} className={styles.img}/>
+
 			</div>
 		</div>
 	)
