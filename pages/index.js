@@ -10,7 +10,6 @@ export default function Home() {
        <Head>
            <title>Do Something Fun</title>
            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171722391-1"></script>
-           <meta name="description" content="Be spontaneous for once | Meet new people make new friends"/>
            <meta name="author" content="Alex Kessinger"/>
            <meta charSet="UTF-8"/>
            <meta property="og:image" content="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80"/>
