@@ -32,6 +32,7 @@ const AboutUs = () => {
 			</div>
 
 			<Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} className={styles.modalWrapper}>
+				<span className={styles.exit}>X</span>
 				<img src={"/img/rick-rolled.png"} alt={"rick-roll"} className={styles.rickImg}/>
 
 				<div className={styles.modal}>

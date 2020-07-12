@@ -47,8 +47,21 @@
 }
 
 .modalWrapper {
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 450px;
 	padding: 0 20px;
+}
+
+.exit {
+	padding-bottom: 5px;
+	font-size: 1.7em;
+	align-self: flex-end;
+
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 @media only screen and (min-width: 580px) {
@@ -70,5 +83,9 @@
 
 	.title {
 		font-size: 26px;
+	}
+
+	.rickImg {
+		max-width: 450px;
 	}
 }
