@@ -14,7 +14,7 @@ export default function Home() {
            <meta charSet="UTF-8"/>
            <meta
                property="og:image"
-               content="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80"
+               content="https://new-friends.vercel.app/img/meta-tag-image.png"
            />
        </Head>
 
