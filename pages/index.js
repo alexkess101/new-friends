@@ -12,10 +12,7 @@ export default function Home() {
            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171722391-1"></script>
            <meta name="author" content="Alex Kessinger"/>
            <meta charSet="UTF-8"/>
-           <meta
-               property="og:image"
-               content="https://new-friends.vercel.app/img/meta-tag-image.png"
-           />
+           <meta property="og:image" content="https://new-friends.vercel.app/img/meta-tag-image.png"/>
        </Head>
 
        <Header/>
