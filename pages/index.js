@@ -10,6 +10,10 @@ export default function Home() {
        <Head>
            <title>Creating friends from scratch</title>
            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171722391-1"></script>
+           <meta name="description" content=""/>
+           <meta name="author" content="Alex Kessinger"/>
+           <meta charSet="UTF-8"/>
+           <meta property="og:image" content="https://smartystreets.com/img/smartystreets-s-og-logo.png"/>
        </Head>
 
        <Header/>
