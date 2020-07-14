@@ -41,7 +41,7 @@ const AboutUs = () => {
 					</h3>
 					<p>
 						Sorry, you just got Rick Rolled. But really, we don't have any videos of when we did this
-						before because this is the first time it's been done EVER!
+						before because this is the first time it's been done...EVER!
 					</p>
 				</div>
 			</Modal>
