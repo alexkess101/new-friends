@@ -61,8 +61,8 @@ const AboutUs = () => {
 				title={"What's the point? 🤷"}
 				subTitle={<p>You've heard of COVID-19? Yeah, it's been a while since I've tried to make new friends and I'd
 				imagine it's the same for you. If you have any questions I linked all my social
-				media<a href={"#social-links"}> here</a> at the bottom of the page. Also, the guy in the All
-				Blacks polo is me.</p>}
+				media<a href={"#social-links"}> here</a> at the bottom of the page so you can
+				get in touch with me there. Also, the guy in the All Blacks polo is me.</p>}
 				imgPath={"/img/alex.jpg"}
 				titleClass={styles.itemTitle}
 				subTitleClass={styles.imgWrapper}
