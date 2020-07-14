@@ -48,7 +48,8 @@ const AboutUs = () => {
 
 			<AboutUsItem
 				title={"What you can expect 👀"}
-				subTitle={<p>Random people getting together to hang out. That's it. It'll be kind of weird...let's get
+				subTitle={<p>Think of The Bachelor but less "fakeness". There will be an interview
+				process, filming, but that's it. It'll be kind of weird...let's get
 				real. You feel it, I feel it, we're all on the same page.
 				But if you're really that skeptical you can check out a video of how we did it the first
 				time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}

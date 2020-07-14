@@ -9,6 +9,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	margin-bottom: 75px;
 }
 
@@ -31,6 +32,10 @@
 	font-family: proximaNova-Semibold;
 	font-size: 17px;
 
+}
+
+.button {
+	margin-top: 20px;
 }
 
 @media only screen and (min-width: 580px) {

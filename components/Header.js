@@ -12,6 +12,14 @@ const Header = () => {
 						Creating your new best friend group
 					</div>
 				</div>
+
+				<a
+					href={"https://forms.gle/8uqgoT7yQ26hYNoVA"}
+					className={"btn--white " + styles.button}
+					target={"_blank"}
+				>
+					Try it out
+				</a>
 			</div>
 		</header>
 	)
