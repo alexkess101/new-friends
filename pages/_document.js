@@ -27,11 +27,11 @@ export default class MyDocument extends Document {
 
 			</Head>
 			<body>
-				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLB6CZL"
-						height="0"
-						width="0"
-						style="display:none;visibility:hidden"
-				/>
+				{/*<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLB6CZL"*/}
+				{/*		height="0"*/}
+				{/*		width="0"*/}
+				{/*		style="display:none;visibility:hidden"*/}
+				{/*/>*/}
 
 				<Main />
 				<NextScript />
