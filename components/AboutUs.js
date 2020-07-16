@@ -52,7 +52,7 @@ const AboutUs = () => {
 				process, filming, but that's it. It'll be kind of weird...let's get
 				real. You feel it, I feel it, we're all on the same page.
 				But if you're really that skeptical you can check out a video of how we did it the first
-				time <a onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
+				time <a id={"rick-roll"} onClick={handleRickRoll} href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"} target={"_blank"}>here</a>.</p>}
 				imgPath={"/img/img-friends.jpg"}
 
 			/>
